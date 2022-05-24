@@ -1,12 +1,9 @@
 using System;
-using DIO.Series.Enum;
-using DIO.Series.Classes;
-using DIO.Series.Interfaces;
 using System.Collections.Generic;
+using DIO.Series.Interfaces;
 
 namespace DIO.Series
 {
-
     public class SerieRepositorio : IRepositorio<Serie>
     {
         private List<Serie> listaSerie = new List<Serie>();
@@ -25,7 +22,7 @@ namespace DIO.Series
             listaSerie.Add(objeto);
         }
 
-        public List<Serie> lista()
+        public List<Serie> Lista()
         {
             return listaSerie;
         }
