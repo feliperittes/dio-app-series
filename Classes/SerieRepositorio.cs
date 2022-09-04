@@ -4,37 +4,37 @@ using DIO.Series.Interfaces;
 
 namespace DIO.Series
 {
-    public class SerieRepositorio : IRepositorio<Serie>
+    public class SeriesRepository : IRepository<Serie>
     {
-        private List<Serie> listaSerie = new List<Serie>();
-        public void Atualiza(int id, Serie objeto)
+        private List<Serie> listSerie = new List<Serie>();
+        public void Update(int id, Serie serieObject)
         {
-            listaSerie[id] = objeto;
+            listSerie[id] = serieObject;
         }
 
-        public void Exclui(int id)
+        public void Delete(int id)
         {
-            listaSerie[id].Excluir();
+            listSerie[id].Delete();
         }
 
-        public void Insere(Serie objeto)
+        public void Insert(Serie serieObject)
         {
-            listaSerie.Add(objeto);
+            listSerie.Add(serieObject);
         }
 
-        public List<Serie> Lista()
+        public List<Serie> List()
         {
-            return listaSerie;
+            return listSerie;
         }
 
-        public int ProximoId()
+        public int NextId()
         {
-            return listaSerie.Count;
+            return listSerie.Count;
         }
 
-        public Serie RetornaPorId(int id)
+        public Serie ReturnById(int id)
         {
-            return listaSerie[id];
+            return listSerie[id];
         }
     }
 }

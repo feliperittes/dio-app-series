@@ -1,19 +1,19 @@
 namespace DIO.Series
 {
-	public enum Genero
-	{
-		Acao = 1,
-		Aventura = 2,
-		Comedia = 3,
-		Documentario = 4,
-		Drama = 5,
-		Espionagem = 6,
-		Faroeste = 7,
-		Fantasia = 8,
-		Ficcao_Cientifica = 9,
-		Musical = 10,
-		Romance = 11,
-		Suspense = 12,
-		Terror = 13
-	}
+    public enum Genre
+    {
+        Action = 1,
+        Adventure = 2,
+        Comedy = 3,
+        Documentary = 4,
+        Drama = 5,
+        Espionage = 6,
+        Wild_West = 7,
+        Fantasy = 8,
+        Science_Fiction = 9,
+        Musical = 10,
+        Novel = 11,
+        Suspense = 12,
+        Horror = 13
+    }
 }

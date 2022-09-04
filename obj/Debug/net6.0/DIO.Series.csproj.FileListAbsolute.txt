@@ -18,3 +18,13 @@ C:\Users\feliperittes\Desktop\DIO.Series\obj\Debug\net6.0\refint\DIO.Series.dll
 C:\Users\feliperittes\Desktop\DIO.Series\obj\Debug\net6.0\DIO.Series.pdb
 C:\Users\feliperittes\Desktop\DIO.Series\obj\Debug\net6.0\DIO.Series.genruntimeconfig.cache
 C:\Users\feliperittes\Desktop\DIO.Series\obj\Debug\net6.0\ref\DIO.Series.dll
+C:\dev\DIO.Series\bin\Debug\net6.0\DIO.Series.exe
+C:\dev\DIO.Series\bin\Debug\net6.0\DIO.Series.deps.json
+C:\dev\DIO.Series\bin\Debug\net6.0\DIO.Series.runtimeconfig.json
+C:\dev\DIO.Series\bin\Debug\net6.0\DIO.Series.dll
+C:\dev\DIO.Series\bin\Debug\net6.0\DIO.Series.pdb
+C:\dev\DIO.Series\obj\Debug\net6.0\DIO.Series.dll
+C:\dev\DIO.Series\obj\Debug\net6.0\refint\DIO.Series.dll
+C:\dev\DIO.Series\obj\Debug\net6.0\DIO.Series.pdb
+C:\dev\DIO.Series\obj\Debug\net6.0\DIO.Series.genruntimeconfig.cache
+C:\dev\DIO.Series\obj\Debug\net6.0\ref\DIO.Series.dll
